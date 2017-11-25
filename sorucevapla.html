@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoruCevapPortali</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html">Soru Cevap Portalı</a>
+                        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav">
+                            <li role="presentation"><a href="index.html">Soru Sor</a></li>
+                            <li class="active" role="presentation"><a href="sorucevapla.html">Soruları Cevapla</a></li>
+                            <li role="presentation"><a href="cevaplar.html">Cevapları Gör</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <article>
+            <div id="contentWrapper">
+                <div class="row">
+                    <form method="POST" action="cevaplar.html">
+                    <div class="col-md-12" id="soruWrapper">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">En Sevdiğin Yemek Nedir?</h3></div>
+                            <div class="panel-body">
+                                <input type="text" class="cevaplaInput">
+                                <button class="btn btn-success gonderButton" type="submit" > Gönder </button>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Hangi Takımlısın?</h3></div>
+                            <div class="panel-body">
+                                <input type="text" class="cevaplaInput">
+                                <button class="btn btn-success gonderButton" type="submit">Gönder </button>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">En Sevdiğin Renk Nedir?</h3></div>
+                            <div class="panel-body">
+                                <input type="text" class="cevaplaInput">
+                                <button class="btn btn-success gonderButton" type="submit">Gönder </button>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">En Çok Korktuğun Şey Nedir?</h3></div>
+                            <div class="panel-body">
+                                <input type="text" class="cevaplaInput">
+                                <button class="btn btn-success gonderButton" type="submit">Gönder </button>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Niye Soru Soruyorsun?</h3></div>
+                            <div class="panel-body">
+                                <input type="text" class="cevaplaInput">
+                                <button class="btn btn-success gonderButton" type="submit">Gönder </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </article>
+        <footer>
+            <nav class="navbar navbar-default navbar-fixed-bottom">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navcol-2">
+                        <ul class="nav navbar-nav">
+                            <li role="presentation"><a href="#">Çıkış Yap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
